@@ -14,6 +14,13 @@ More in depth:
 * Choose the file AvgAdsRemover.xml
 * Edit the imported task changing the path of the .bat file (by default it is picked from C:\bat\AvgAdsRemover.bat)
 
+## Editing the hosts file
+To prevent an additional advertisement from AVG to appear, we will block the hostname campaign.avg.com in the hosts file of windows.
+* Go to C:\windows\system32\drivers\etc
+* Open with notepad or any text editor the file "hosts"
+* At the end of the file add the following line:
+* 127.0.0.1 campaign.avg.com
+
 ## Compatibility with AVG versions
 Tested on AVG 2013, 2014, 2015 on Windows 7 and Windows 8.1.
 
